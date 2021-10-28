@@ -1,0 +1,67 @@
+
+.sign__in {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    font-family: 'Lato', sans-serif;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30vw;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sign_up_button {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 1rem;
+    width: 10vw;
+    padding: .75rem;
+    background-color: transparent;
+    color: white;
+}
+.sign_in_button {
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    width: 10vw;
+    padding: .75rem;
+    background-color: #0327da;
+    color: white;
+    margin-top: 3rem;
+}
+.input {
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    border: 2px solid lightgrey;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    width: 70%;
+    padding: 1rem;
+    border: none;
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: .5rem;
+}
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
